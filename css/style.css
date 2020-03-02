@@ -1,0 +1,149 @@
+
+body {
+	background-image: linear-gradient(0deg, #f5c690 25%, #a3d6f0 25%, #a3d6f0 50%, #f5c690 50%, #f5c690 75%, #a3d6f0 75%, #a3d6f0 100%);
+background-size: 1800.00px 1800.00px;
+	background-color: #C8ECF5;
+	padding: 100px 100px;
+}
+
+
+
+.title {
+
+	font-family: 'BioRhyme', serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	position: block;
+ 	float: left;
+ 	margin-left: -50px;
+ 	
+
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+-o-transform: rotate(-90deg);
+
+}
+
+.title2 {
+
+	font-family: 'BioRhyme', serif;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+ 	float: left;
+ 	margin-left: -525px;
+ 	padding-top: 950px;
+ 	
+ 	
+
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+-o-transform: rotate(-90deg);
+
+}
+
+
+
+ul.gallery li {
+	float: left;
+	margin: -25px;
+	padding: 0px;
+	list-style: none;
+
+}
+
+ul.gallery li a img {
+	float: left;
+	height: 100%;
+
+	webkit-transition: -webkit-transform 0.4s ease-in-out;
+	-moz-transition: -webkit-transform 0.4s ease-in-out;
+	-o-transition: -webkit-transform 0.4s ease-in-out;
+	transition: -webkit-transform 0.4s ease-in-out;
+}
+
+ul.gallery li a:hover img, a:focus img {
+
+	—webkit-transform: scale(1.5) translate(20px, 40px);
+	—moz-transform: scale(1.5) translate(20px, 40px);
+	—0-transform: scale(1.5) translate(20px, 40px);
+	transform: scale(1.5) translate(20px, 40px);
+
+}	
+
+.box{
+	display:block;
+	margin: 20px 0px 80px 150px;
+}
+
+
+ul.gallery2 { 
+	float: left;
+	margin-left: -800px;
+
+}
+
+ul.gallery2 li {
+	float:left;
+	padding-top:440px;
+	list-style: none;
+	
+
+
+}
+
+ul.gallery2 li a img {
+	float: left;
+	height: 100%;
+	margin: -20px;
+
+
+	webkit-transition: -webkit-transform 0.4s ease-in-out;
+	-moz-transition: -webkit-transform 0.4s ease-in-out;
+	-o-transition: -webkit-transform 0.4s ease-in-out;
+	transition: -webkit-transform 0.4s ease-in-out;
+}
+
+ul.gallery2 li#wink a:hover img, a:focus img {
+
+	—webkit-transform: scale(1.5) translate(20px, 40px);
+	—moz-transform: scale(1.5) translate(20px, 40px);
+	—0-transform: scale(1.5) translate(20px, 40px);
+	transform: scale(1.5) translate(20px, 40px);
+}
+
+ul.gallery2 li#beach a:hover img, a:focus img {
+
+	—webkit-transform: scale(1.5) rotate(20deg);
+	—moz-transform: scale(1.5) rotate(20deg);
+	—0-transform: scale(1.5) rotate(20deg);
+	transform: scale(1.5) rotate(20deg);
+}	
+
+ul.gallery2 li#heart a:hover img, a:focus img {
+
+	—webkit-transform: scale(1.5) rotateX(150deg);
+	—moz-transform: scale(1.5) rotateX(150deg);
+	—0-transform: scale(1.5) rotateX(150deg);
+	transform: scale(1.5) rotateX(150deg);
+}	
+
+ul.gallery2 li#weekend a:hover img, a:focus img {
+
+	—webkit-transform: scale(1.5) skewY(20deg);
+	—moz-transform: scale(1.5) rskewY(20deg);
+	—0-transform: scale(1.5) skewY(20deg);
+	transform: scale(1.5) skewY(20deg);
+}	
+
+ul.gallery2 li#vibes a:hover img, a:focus img {
+
+	left: 500px;
+
+	—webkit-transform: scale(1.5) rotateY(130deg);
+	—moz-transform: scale(1.5) rotateY(130deg);
+	—0-transform: scale(1.5) rotateY(130deg);
+	transform: scale(1.5) rotateY(130deg);
+}		
